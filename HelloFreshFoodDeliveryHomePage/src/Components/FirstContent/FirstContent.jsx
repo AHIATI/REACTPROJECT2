@@ -11,7 +11,7 @@ const FirstContent = () => {
       </div>
       <div className="middle_message">
         <div className="first_message">
-          <h1>HOMEMADE MADE EASY</h1>
+          <h1>HOMEMADE MADE EASY WITH HELLOFRESH</h1>
           <h1>WITH HELLOFRESH MEAL KITS</h1>
         </div>
         <div className="second_message">
