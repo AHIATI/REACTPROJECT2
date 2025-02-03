@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 import "./Navbar.css";
 import leaf from "../../assets/leaf.png";
 import FreshFoodBanner from "../FreshFoodBanner/FreshFoodBanner";
@@ -30,7 +32,7 @@ const Navbar = () => {
             onMouseLeave={hideAboutUsOnHover}
           >
             <a href="/">
-              About Us <i className="fa fa-caret-down"></i>
+              About Us <FontAwesomeIcon icon={faCaretDown} />
             </a>
             {isAboutUsVisible && (
               <div className="drop_down">
@@ -50,7 +52,7 @@ const Navbar = () => {
           </li>
           <li onMouseEnter={showMenuOnHover} onMouseLeave={hideMenuOnHover}>
             <a href="/">
-              Our Menus <i className="fa fa-caret-down"></i>
+              Our Menus <FontAwesomeIcon icon={faCaretDown} />
             </a>
             {isMenuVisible && (
               <div className="drop_down">
@@ -79,7 +81,7 @@ const Navbar = () => {
             onMouseLeave={hideSustainabilityOnHover}
           >
             <a href="/">
-              Sustainability <i className="fa fa-caret-down"></i>
+              Sustainability <FontAwesomeIcon icon={faCaretDown} />
             </a>
             {isSustainabilityVisible && (
               <div className="drop_down">
