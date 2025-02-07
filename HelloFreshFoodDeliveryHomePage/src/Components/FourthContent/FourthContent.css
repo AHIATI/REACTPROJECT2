@@ -1,0 +1,17 @@
+.about_hellofresh{
+  display:flex;
+  justify-content: center;
+  width:1000px;
+  height:200px;
+  background-color: orange;
+  margin: 20px 150px;
+  border-radius: 7px;
+  padding:20px 30px;
+}
+
+.about_hellofresh_text{
+  text-align:center;
+  display:block;
+  line-height:25px;
+  
+}
