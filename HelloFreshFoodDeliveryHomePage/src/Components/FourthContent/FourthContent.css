@@ -20,17 +20,26 @@
   justify-content: center;
   width:1000px;
   height:200px;
-  background-color: orange;
-  margin: 20px 150px;
+  background-color:#B8D576;
+  margin: 20px 180px;
   border-radius: 7px;
   padding:20px 30px;
+  margin-bottom:20px;
 }
 
 .about_hellofresh_text{
   text-align:center;
   display:block;
   line-height:25px;
+  margin-top:40px ;
+  margin-left:-90px;
+ 
   
+}
+.about_hellofresh_image img{
+  object-fit: contain;
+  width:150px;
+  height:150px;
 }
 
 
@@ -47,4 +56,31 @@
 .slide-description {
   font-size: 14px;
   color: gray;
+}
+
+.about_hellofresh_banner {
+  margin:30px -25px;
+}
+#market{
+  font-size:25px;
+  font-weight:200px;
+  border-radius:7px;
+ margin-left:30px;
+ padding:5px 10px;
+ width:100px;
+ background-color: rgb(0, 128, 0);
+ color:white;
+ border:1px solid rgb(0, 128, 0);
+}
+
+#menus{
+  font-size:18px;
+  font-weight:200px;
+  border-radius:3px;
+ margin-left:30px;
+ padding:5px 10px;
+ width:500px;
+ background-color: rgb(0, 128, 0);
+ color:white;
+ border:1px solid rgb(0, 128, 0);
 }

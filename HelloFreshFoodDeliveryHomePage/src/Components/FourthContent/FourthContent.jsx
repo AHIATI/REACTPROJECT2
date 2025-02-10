@@ -2,6 +2,8 @@ import React from "react";
 import "./FourthContent.css";
 import FreshFoodBanner from "../FreshFoodBanner/FreshFoodBanner";
 import aboutus from "../../assets/aboutus.png";
+import aboutus2 from "../../assets/aboutus2.png";
+
 import ImageSlider from "./../ImageSlider/ImageSlider";
 import slider1 from "./../../assets/slider1.jpg";
 import spaghetti from "./../../assets/spaghetti.jpg";
@@ -43,13 +45,15 @@ const FourthContent = () => {
         </div>
         <div className="about_hellofresh_image">
           <img src={aboutus} alt="About HelloFresh" />
+          <img src={aboutus2} alt="About HelloFresh" />
+
         </div>
         <div className="about_hellofresh_banner">
           <FreshFoodBanner />
           <button id="market">Market</button>
         </div>
       </div>
-      <button>View Our Menus</button>
+      <button id="menus">View Our Menus</button>
     </div>
   );
 };
