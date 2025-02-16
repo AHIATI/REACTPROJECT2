@@ -21,7 +21,6 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <div className="slider">
-      {/* Left Arrow */}
       <div className="arrow left" onClick={goToPrevious}>
         ❰
       </div>

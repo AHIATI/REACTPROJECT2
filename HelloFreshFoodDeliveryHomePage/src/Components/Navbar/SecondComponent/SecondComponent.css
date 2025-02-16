@@ -22,7 +22,7 @@
   height: 210px;
   align-items: column;
   background-color: #f4f8d3;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 .food_banner {
@@ -55,28 +55,32 @@
   margin-top: 50px;
 }
 
-.second_food img{
+.second_food img {
   border-radius: 10px;
 }
 
-.food_description{
-  margin-top:10px;
-  text-align:center;
-  line-height:25px;
+.food_description {
+  margin-top: 10px;
+  text-align: center;
+  line-height: 25px;
 }
 
-.food_description .font{
-  font-weight:900;
+.food_description .font {
+  font-weight: 900;
 }
 
-.second_content button{
-  margin-top:20px;
+.second_content button {
+  margin-top: 20px;
   font-size: 15px;
   padding: 10px;
+  cursor: pointer;
   font-weight: 800;
   width: 130px;
-  color:white;
+  color: white;
   background-color: rgb(0, 128, 0);
   border-radius: 5px;
   border: 1px solid rgb(0, 128, 0);
+}
+.second_content button:hover {
+  transform: scale(1.1);
 }

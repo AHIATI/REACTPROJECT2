@@ -5,6 +5,8 @@ import SecondComponent from './Components/Navbar/SecondComponent/SecondComponent
 import ThirdContent from './Components/ThirdContent/ThirdContent';
 import './App.css';
 import FourthContent from './Components/FourthContent/FourthContent';
+import FifthContent from './Components/FifthContent/FifthContent';
+import SixContent from './Components/SixContent/SixContent';
 const App = () => {
   return (
     <div>
@@ -14,7 +16,8 @@ const App = () => {
       <SecondComponent/>
       <ThirdContent/>
       <FourthContent/>
-     
+      <FifthContent/>
+      <SixContent/>
     </div>
 
   )

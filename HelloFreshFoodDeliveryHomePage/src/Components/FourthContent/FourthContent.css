@@ -1,47 +1,37 @@
-.food_container{
-  margin-top:70px;
-  text-align:center;
-  line-height:30px;
+.food_container {
+  margin-top: 70px;
+  text-align: center;
+  line-height: 30px;
 }
-.food_container h3{
-  font-size:27px;
-  font-weight:100;
+.food_container h3 {
+  font-size: 27px;
+  font-weight: 100;
 }
 
-
-
-
-
-
-
-
-.about_hellofresh{
-  display:flex;
+.about_hellofresh {
+  display: flex;
   justify-content: center;
-  width:1000px;
-  height:200px;
-  background-color:#B8D576;
+  width: 1000px;
+  height: 200px;
+  background-color: #b8d576;
   margin: 20px 180px;
   border-radius: 7px;
-  padding:20px 30px;
-  margin-bottom:20px;
+  padding: 20px 30px;
+  margin-bottom: 20px;
 }
 
-.about_hellofresh_text{
-  text-align:center;
-  display:block;
-  line-height:25px;
-  margin-top:40px ;
-  margin-left:-90px;
- 
-  
+.about_hellofresh_text {
+  text-align: center;
+  display: block;
+  line-height: 25px;
+  margin-top: 40px;
+  margin-left: -90px;
 }
-.about_hellofresh_image img{
+.about_hellofresh_image img {
   object-fit: contain;
-  width:150px;
-  height:150px;
+  width: 150px;
+  height: 150px;
 }
-
 
 .slide-text {
   text-align: center;
@@ -59,28 +49,32 @@
 }
 
 .about_hellofresh_banner {
-  margin:30px -25px;
+  margin: 30px -25px;
 }
-#market{
-  font-size:25px;
-  font-weight:200px;
-  border-radius:7px;
- margin-left:30px;
- padding:5px 10px;
- width:100px;
- background-color: rgb(0, 128, 0);
- color:white;
- border:1px solid rgb(0, 128, 0);
+#market {
+  font-size: 25px;
+  font-weight: 200px;
+  border-radius: 7px;
+  margin-left: 30px;
+  padding: 5px 10px;
+  width: 100px;
+  background-color: rgb(0, 128, 0);
+  color: white;
+  border: 1px solid rgb(0, 128, 0);
 }
 
-#menus{
-  font-size:18px;
-  font-weight:200px;
-  border-radius:3px;
- margin-left:30px;
- padding:5px 10px;
- width:500px;
- background-color: rgb(0, 128, 0);
- color:white;
- border:1px solid rgb(0, 128, 0);
+#menus {
+  font-size: 18px;
+  font-weight: 200px;
+  border-radius: 3px;
+  margin-left: 30px;
+  padding: 5px 10px;
+  cursor:pointer;
+  width: 500px;
+  background-color: rgb(0, 128, 0);
+  color: white;
+  border: 1px solid rgb(0, 128, 0);
+}
+#menus:hover{
+  transform:scale(1.1);
 }

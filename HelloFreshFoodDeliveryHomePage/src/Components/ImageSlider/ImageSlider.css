@@ -71,4 +71,8 @@ margin:5px 20px;
  margin-left:10px;
  margin-right:5px;
  padding:5px 10px;
+ cursor:pointer;
+}
+.slidedescription_container:hover{
+  transform:scale(1.1);
 }
