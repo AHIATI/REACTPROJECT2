@@ -7,6 +7,8 @@ import './App.css';
 import FourthContent from './Components/FourthContent/FourthContent';
 import FifthContent from './Components/FifthContent/FifthContent';
 import SixContent from './Components/SixContent/SixContent';
+import SeventhContent from './Components/SeventhContent/SeventhContent';
+import LastContent from './Components/LastContent/LastContent';
 const App = () => {
   return (
     <div>
@@ -18,8 +20,9 @@ const App = () => {
       <FourthContent/>
       <FifthContent/>
       <SixContent/>
+      <SeventhContent/>
+      <LastContent/>
     </div>
-
   )
 }
 
